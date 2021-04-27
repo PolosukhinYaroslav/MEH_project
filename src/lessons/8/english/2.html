@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>Второе задание по алгебре</h1>
+        <p>Задание</p>
+        <button id="p_b">Подсказка</button>
+        <button id="o_b">Ответ</button>
+        <button id="r_b">Решение</button>
+        <p class="p" id="p">Подсказка</p>
+        <p class="o" id="o">Ответ</p>
+        <p class="r" id="r">Решение</p>
+    </body>
+
+    <style>
+        .p, .o, .r{
+            display: none;
+        }
+    </style>
+
+    <script>
+            document.onclick = function(e) {
+                target = e.target.id;
+                if (target == 'p_b') {
+                    document.getElementById('p').style.display = 'block';
+                };
+                if (target == 'o_b') {
+                    document.getElementById('o').style.display = 'block';
+                };
+                if (target == 'r_b') {
+                    document.getElementById('r').style.display = 'block';
+                };
+            };
+    </script>
+</html>
