@@ -1,2 +1,2 @@
 # MEH_project
-# by Yaroslav Polosukhin, Kirill Logvenenko, Yura Chehonin, Andrey Adriyashin
+by Yaroslav Polosukhin, Kirill Logvenenko, Yura Chehonin, Andrey Adriyashin
